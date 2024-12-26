@@ -44,6 +44,7 @@ function App() {
               marginBottom: 8,
             }}
           >
+            {console.log(tabs)}
             {tabs.map(item => {
               return (
                 <Radio.Button value={item}>{item}</Radio.Button>
